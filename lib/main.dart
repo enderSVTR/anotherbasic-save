@@ -48,7 +48,7 @@ class HomePage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(16),
               ),
               child: Image.network(
-                'https://picsum.photos/600/300',
+                'https://game.intel.com/wp-content/uploads/2024/11/Arena-Breakout-Infinite-Season-Web-1920x1080-2-1024x576.jpg?x48957&x48957',
                 fit: BoxFit.cover,
                 loadingBuilder: (context, child, loadingProgress) {
                   if (loadingProgress == null) return child;
@@ -73,12 +73,8 @@ class HomePage extends StatelessWidget {
                         'Description',
                         goToDetail: true,
                       ),
-                      _buildGridIcon(
-                        context,
-                        CupertinoIcons.calendar,
-                        'Calendar',
-                      ),
-                      _buildGridIcon(context, CupertinoIcons.map, 'Map'),
+                      _buildGridIcon(context, CupertinoIcons.calendar, 'games'),
+                      _buildGridIcon(context, CupertinoIcons.map, 'Search'),
                     ],
                   ),
                   const SizedBox(height: 12),
@@ -207,16 +203,12 @@ class ProfilePage extends StatelessWidget {
               'Terms of Use',
             ),
             _buildMenuItem(CupertinoIcons.lock, Colors.blue, 'Privacy Policy'),
-            _buildMenuItem(
-              CupertinoIcons.star_fill,
-              Colors.green,
-              'Upgrade to Plus',
-            ),
+            _buildMenuItem(CupertinoIcons.star_fill, Colors.green, 'customize'),
             _buildMenuItem(
               CupertinoIcons.moon,
               Colors.orange,
-              'Theme Mode',
-              trailing: 'System',
+              'wishlist',
+              trailing: '5',
             ),
             _buildMenuItem(
               CupertinoIcons.globe,
@@ -333,7 +325,7 @@ class DetailScreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Image.network(
-                'https://picsum.photos/600/300',
+                'https://thegigletter.com/wp-content/uploads/2025/04/Blog-pic-1280x720-3.jpg',
                 fit: BoxFit.cover,
                 loadingBuilder: (context, child, loadingProgress) {
                   if (loadingProgress == null) return child;
@@ -348,20 +340,15 @@ class DetailScreen extends StatelessWidget {
 
             // Description Texts
             const Text(
-              'lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit. '
-              'Sed euismod, nisl vel tincidunt fermentum, sapien justo cursus nulla, '
-              'nec tincidunt lorem sapien nec nisi. Curabitur a felis ac nulla facilisis tincidunt. '
-              'Integer vitae velit ut sapien gravida porta. Suspendisse potenti. Fusce euismod, '
-              'justo at ultricies rhoncus, sapien sem convallis nulla, nec laoreet magna sapien in leo.',
-              style: TextStyle(fontSize: 14),
+              ' Arena Breakout is a tactical first-person shooter (FPS) that blends intense combat with high-stakes survival and extraction gameplay. Developed by Tencent’s MoreFun Studio and published globally by Level Infinite, the game challenges players to not just fight—but to escape with valuable loot before time runs out ',
+              style: TextStyle(fontSize: 18),
             ),
             const SizedBox(height: 12),
             const Text(
-              'Praesent nec orci nec sapien bibendum tincidunt. Pellentesque habitant morbi tristique '
-              'senectus et netus et malesuada fames ac turpis egestas. Vivamus vel turpis ac justo convallis '
-              'convallis. Etiam ut diam vel sapien gravida dapibus. Nulla facilisi. Duis nec lorem nec sapien '
-              'tincidunt convallis.',
-              style: TextStyle(fontSize: 14),
+              'available on mobile, and PC (separate game but still the same), Arena Breakout offers a rich, immersive experience with its realistic graphics, dynamic environments, and a wide array of weapons and gear. Players can team up in squads or go solo, navigating through various maps filled with both AI-controlled enemies and other players.'
+              'you can customize over 48 real-world inspired guns and 700+ attachments let you build your perfect weapon.The Gunsmith system allows deep customization, affecting recoil, damage, and handling.'
+              'you can download from google play store and app store, for pc version you can download it from [https://www.arenabreakoutinfinite.com/en/] and steam (coming soon)',
+              style: TextStyle(fontSize: 17),
             ),
           ],
         ),
