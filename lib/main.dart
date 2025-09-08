@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
 }
 
 /// ------------------- HOMEPAGE -------------------
-/// ------------------- HOMEPAGE -------------------
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -315,19 +314,23 @@ class ProfilePage extends StatelessWidget {
                   SizedBox(height: 10),
                   Text(
                     "William Carter VII",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 18,
+                      color: CupertinoColors.white, // ✅ stays white
+                    ),
                   ),
                   Text(
                     "willcrtr1267t@gmail.com",
                     style: TextStyle(
-                      color: CupertinoColors.systemGrey,
+                      color: CupertinoColors.white, // ✅ stays white
                       fontSize: 14,
                     ),
                   ),
                   Text(
                     "#HilalEnder",
                     style: TextStyle(
-                      color: CupertinoColors.systemGrey,
+                      color: CupertinoColors.white, // ✅ stays white
                       fontSize: 13,
                     ),
                   ),
@@ -341,38 +344,29 @@ class ProfilePage extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 16,
-                color: CupertinoColors.activeBlue,
+                color: CupertinoColors.black, // ✅ now black
               ),
             ),
             const SizedBox(height: 10),
 
-            // ✅ Security & Account Management
             const _ProfileItem(
               icon: CupertinoIcons.lock,
               title: "Security & Account Management",
             ),
-
-            // ✅ Avatar/Profile Picture
             const _ProfileItem(
               icon: CupertinoIcons.photo,
               title: "Avatar / Profile Picture",
             ),
-
-            // ✅ Username / Display Name
             const _ProfileItem(
               icon: CupertinoIcons.person,
               title: "Username / Display Name",
               subtitle: "William Carter VII",
             ),
-
-            // ✅ Email / Phone
             const _ProfileItem(
               icon: CupertinoIcons.mail,
               title: "Email / Phone",
               subtitle: "willcrtr1267t@gmail.com",
             ),
-
-            // ✅ Account ID / Tagline
             const _ProfileItem(
               icon: CupertinoIcons.number,
               title: "Account ID / Tagline",
@@ -385,18 +379,15 @@ class ProfilePage extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 16,
-                color: CupertinoColors.activeBlue,
+                color: CupertinoColors.black, // ✅ now black
               ),
             ),
             const SizedBox(height: 10),
 
-            // ✅ Download history
             const _ProfileItem(
               icon: CupertinoIcons.cloud_download,
               title: "Download History",
             ),
-
-            // ✅ Privacy settings
             const _ProfileItem(
               icon: CupertinoIcons.shield,
               title: "Privacy Settings",
@@ -438,6 +429,7 @@ class _ProfileItem extends StatelessWidget {
                   style: const TextStyle(
                     fontSize: 14,
                     fontWeight: FontWeight.w500,
+                    color: CupertinoColors.black, // ✅ all titles black
                   ),
                 ),
                 if (subtitle != null)
@@ -445,7 +437,7 @@ class _ProfileItem extends StatelessWidget {
                     subtitle!,
                     style: const TextStyle(
                       fontSize: 12,
-                      color: CupertinoColors.systemGrey,
+                      color: CupertinoColors.black, // ✅ all subtitles black
                     ),
                   ),
               ],
@@ -588,6 +580,7 @@ class _SettingsItem extends StatelessWidget {
                   style: const TextStyle(
                     fontSize: 14,
                     fontWeight: FontWeight.w500,
+                    color: CupertinoColors.black, // ✅ always black
                   ),
                 ),
                 if (subtitle != null)
@@ -595,7 +588,7 @@ class _SettingsItem extends StatelessWidget {
                     subtitle!,
                     style: const TextStyle(
                       fontSize: 12,
-                      color: CupertinoColors.systemGrey,
+                      color: CupertinoColors.black, // ✅ make black
                     ),
                   ),
               ],
