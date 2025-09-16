@@ -1,20 +1,28 @@
-# application_1
+# Project Title
 
-A new Flutter project.
+## Navigation
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Getting Started
+# About Me
 
-This project is a starting point for a Flutter application.
+Hi! I'm Djilziannu Arfahilal Ramadhan, a passionate developer with experience in building web and mobile applications. I love learning new technologies and solving challenging problems.
 
-A few resources to get you started if this is your first Flutter project:
+# Skills
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+I am good at using the following applications and technologies:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Programming Languages:** JavaScript, Python, Dart
+- **Frameworks:** React, Node.js, Flutter
+- **Tools:** Git, Docker, VS Code
+- **Databases:** MongoDB, PostgreSQL
 
+## Projects : Mobile game download
+A cross-platform mobile app developed using Flutter to help users to download apps freely.
+[GitHub Repository](https://github.com/enderSVTR/anotherbasic-save)
 <img width="234" height="502" alt="image" src="https://github.com/user-attachments/assets/a3a89efc-129d-4cf9-af9f-5eb35a6d4c41" />
 <img width="233" height="503" alt="image" src="https://github.com/user-attachments/assets/d5f67b61-6f6c-42ad-82c6-abf779552c55" />
 <img width="233" height="503" alt="image" src="https://github.com/user-attachments/assets/73ab8d37-2360-4268-8e7f-3c7263579775" />
