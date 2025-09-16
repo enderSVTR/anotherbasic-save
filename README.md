@@ -2,13 +2,10 @@
 
 ## Navigation
 - [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
-# About Me
-
+- 
+# introduction
+about me :
 Hi! I'm Djilziannu Arfahilal Ramadhan, a passionate developer with experience in building web and mobile applications. I love learning new technologies and solving challenging problems.
 
 # Skills
